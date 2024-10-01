@@ -1,5 +1,10 @@
 console.log("soumya");
-let opr="+";
-var num="45";
-const dob="24/03/2003";
-console.log(num,opr,dob);
+console.log(address);
+var address = "bhubneswar";
+console.log(address);
+// console.log(num);
+// let num = 50;
+// console.log(num);
+let user = null;
+console.log(typeof user); //object
+console.log(user);
