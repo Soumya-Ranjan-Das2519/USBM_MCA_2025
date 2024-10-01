@@ -7,4 +7,4 @@ It's my first github repo for MERN project class
 -step1:`git add .`
 -step2:`git commit -m "your commit message"`
 -step3:`git push origin main`
--if want to pull from
+-if want to pull from the main resource the type the command bellow -`git pull`
