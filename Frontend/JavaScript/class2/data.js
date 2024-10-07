@@ -43,11 +43,28 @@
 // let varr = `my name is ${name} and my age ${age} years old`;
 // console.log(varr);
 
-// todo :print your name ,age ,roll_no,college,batch,city,in template literal
+// // todo :print your name ,age ,roll_no,college,batch,city,in template literal
+// let name = "soumya";
+// let city = "bhubaneswar";
+// let roll_no = 177;
+// let college = "united school of business management";
+// let batch = 2025;
+// let varr = `my name is ${name},i am from ${city},Roll_no is:${roll_no},and i am pursuing my MCA from ${college} ,${city} ${batch}`;
+// console.log(varr);
+// console.log(varr);
+// // console.log(city.length);
+// let newCity = city.replace("bhubaneswar", "cuttack");
+// console.log(newCity);
+// console.log(newCity.length);
+// let str = " soumya ";
+// console.log(str.length);
+// //let newstr = str.trim();
+// //console.log(newstr.length);
+// console.log(str.length - 2);
+// let newwstr = str.length - 2;
+// console.log(newwstr);
+let num = "5";
+console.log("5" - 2);
 let name = "soumya";
-let city = "bhubaneswar";
-let roll_no = 177;
-let college = "united school of business management";
-let batch = 2025;
-let varr = `my name is ${name},i am from ${city},Roll_no is:${roll_no},and i am pursuing my MCA from ${college} ,${city} ${batch}`;
-console.log(varr);
+console.log(name - 2);
+console.log("soumya" - 2);
