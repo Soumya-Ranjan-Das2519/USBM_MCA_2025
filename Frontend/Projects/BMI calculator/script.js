@@ -1,11 +1,19 @@
 function calculateBMI() {
-  const height = parseFloat(document.getElementById("height").value);
+  const feet = parseFloat(document.getElementById("feet").value);
+  const inches = parseFloat(document.getElementById("inches").value);
   const weight = parseFloat(document.getElementById("weight").value);
 
   let resultMessage;
 
   // Input validation
-  if (isNaN(height) || isNaN(weight) || height <= 0 || weight <= 0) {
+  if (
+    isNaN(feet) ||
+    isNaN(inches) ||
+    isNaN(weight) ||
+    feet < 0 ||
+    inches < 0 ||
+    weight <= 0
+  ) {
     resultMessage =
       "Please enter valid positive numbers for height and weight.";
   } else {
