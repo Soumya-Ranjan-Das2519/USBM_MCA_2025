@@ -1,0 +1,16 @@
+.app-container {
+  text-align: center;
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.app-container h1 {
+  color: #333;
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+}

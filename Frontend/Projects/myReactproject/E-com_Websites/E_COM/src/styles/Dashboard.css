@@ -1,0 +1,31 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.dashboard-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.dashboard-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: left;
+}
+
+.dashboard-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}

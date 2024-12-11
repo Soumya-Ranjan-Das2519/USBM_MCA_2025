@@ -1,0 +1,13 @@
+/* src/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.dark body {
+  background-color: #1a202c; /* Dark background for dark mode */
+  color: #e2e8f0; /* Light text for dark mode */
+}

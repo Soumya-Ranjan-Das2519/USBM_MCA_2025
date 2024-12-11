@@ -1,0 +1,19 @@
+.post-list {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.post-list h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.post-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}

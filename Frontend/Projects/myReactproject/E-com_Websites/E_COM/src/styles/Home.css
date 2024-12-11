@@ -1,0 +1,25 @@
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+
+.products-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform;
+}

@@ -1,0 +1,14 @@
+.post-detail {
+  margin: 20px auto;
+  width: 60%;
+}
+
+.post-detail h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.post-detail p {
+  font-size: 1.2rem;
+  color: #555;
+}
